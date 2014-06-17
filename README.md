@@ -1,0 +1,2 @@
+chrome-ext-select-text
+======================
