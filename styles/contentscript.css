@@ -1,0 +1,132 @@
+#spotify-results *,
+#spotify-results *:before,
+#spotify-results *:after {
+  -webkit-box-sizing: border-box;
+ }
+
+#spotify-results {
+  background: #0E0F10;
+  border-top: 2px solid #74B400;
+  bottom: 0;
+  font-family: helvetica, arial, san-serif;
+  font-size: 14px;
+  left: 0;
+  padding: 0;
+  position: fixed;
+  text-align: left;
+  width: 100%;
+  z-index: 2147483647;
+}
+
+#spotify-results a {
+  color: #74B400;
+  text-decoration: none;
+}
+
+#spotify-results a:hover {
+  text-decoration: none;
+}
+
+#spotify-results .close {
+  background: #74B400;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 21px;
+  height: 24px;
+  line-height: 0;
+  padding: 0 0 4px;
+  position: absolute;
+  right: 15px;
+  top: -24px;
+  width: 24px;
+}
+
+#spotify-results .close:focus {
+  outline: none;
+}
+
+#spotify-results p {
+  color: #828381;
+  margin: 0;
+  padding: 0;
+}
+
+#spotify-results .logo {
+  width: 110px;
+}
+
+#spotify-results > div > a {
+  background-color: #74B400;
+  color: #fff;
+  padding: 10px 20px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  z-index: 1;
+}
+
+#spotify-results > div {
+  background-color: #191A1C;
+  padding: 10px 15px;
+}
+
+#spotify-results > div > p {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 9px;
+  padding-left: 15px;
+}
+
+#spotify-results ul {
+  margin: 0;
+  padding: 5px 15px 15px;
+  position: relative;
+  white-space: nowrap;
+}
+
+#spotify-results ul:after {
+  -webkit-box-shadow: -60px -10px 35px -5px #0E0F10;
+  background-color: #0E0F10;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: -185px;
+  width: 200px;
+}
+
+#spotify-results li {
+  background: #191A1C;
+  border: 1px solid #191A1C;
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+  max-width: 84px;
+  padding: 5px;
+}
+
+#spotify-results li:hover {
+  border: 1px solid #74B400;
+}
+
+#spotify-results li a {
+  color: #757679;
+  transition: color .5s linear;
+}
+
+#spotify-results li a:hover {
+  color: #74B400;
+}
+
+#spotify-results li span {
+  display: block;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#spotify-results li img {
+  height: 72px;
+  width: 72px;
+}

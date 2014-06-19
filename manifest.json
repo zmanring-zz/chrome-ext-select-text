@@ -1,0 +1,41 @@
+{
+  "background": {
+    "scripts": [
+      "scripts/jquery-2.1.0.js",
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "scripts/jquery-2.1.0.js",
+        "contentscript.js"
+      ],
+      "css": [
+        "styles/contentscript.css"
+      ]
+    }
+  ],
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "description": "Search any word on spotify",
+  "incognito": "spanning",
+  "icons": {
+    "16": "images/icon-512.png",
+    "48": "images/icon-512.png",
+    "128": "images/icon-512.png"
+  },
+  "manifest_version": 2,
+  "name": "Select Text",
+  "permissions": [
+    "contextMenus",
+    "http://*/*",
+    "https://*/*",
+    "tabs",
+    "https://api.spotify.com/"
+  ],
+  "version": "0.0.1"
+}
