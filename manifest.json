@@ -21,7 +21,7 @@
     }
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
-  "description": "Search any word on spotify",
+  "description": "Search any word on Spotify",
   "incognito": "spanning",
   "icons": {
     "16": "images/icon-512.png",
@@ -29,7 +29,7 @@
     "128": "images/icon-512.png"
   },
   "manifest_version": 2,
-  "name": "Select Text",
+  "name": "Spotify search",
   "permissions": [
     "contextMenus",
     "http://*/*",
